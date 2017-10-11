@@ -1,0 +1,87 @@
+START the following items may be specified in actual or symbolic form in the UNK of those instructions which refer to the particular items channel unit combined channel and unit combined arm and file unit record UNK inquiry UNK and UNK switches STOP 
+START the UNK operation UNK is used to UNK symbolic names to item numbers see page UNK STOP 
+START continuation cards certain UNK statements make provision for more UNK than may be contained in the operand columns 21 75 of a single line on the UNK UNK sheet STOP 
+START when this is the case the appropriate section of this UNK will indicate that continuation cards may be used STOP 
+START thus when specifically permitted the operand of a given line on the UNK UNK sheet may be continued in the operand of from one to four additional lines which immediately follow STOP 
+START the label and operation columns must be blank and the continuation of the operand must begin in column 21 it must be UNK in the operand column of the UNK sheet STOP 
+START the operand need not extend across the entire operand column of either the UNK card or continuation cards but may end with the UNK following any UNK STOP 
+START remarks may appear to the right of the last UNK on each card provided they are separated from the operand by at least two blank spaces STOP 
+START illustrations of the use of continuation cards are included throughout the examples UNK the various statements STOP 
+START if a continuation card follows a statement that does not permit continuation cards the UNK will UNK a UNK and issue an error message STOP 
+START additional restrictions regarding the use of continuation cards with UNK appear on page UNK STOP 
+START UNK of index words and electronic switches the assignment of actual addresses to symbolic index word and electronic switch names occurs in phase 3 of the UNK UNK STOP 
+START the initial availability of index words and electronic switches is determined by a table which is included in the UNK systems tape STOP 
+START this table originally indicates that index words 1 through UNK and electronic switches 1 through 30 are available for assignment to symbolic references words UNK through UNK are not available STOP 
+START the initial setting of this table may be altered however as described in the UNK data processing system bulletin UNK UNK UNK system operating procedure form aj STOP 
+START during the first pass of phase 3 references to the actual addresses of index words and electronic switches are collected and the availability table is UNK STOP 
+START at the end of this pass the table indicates which index words and electronic switches are not available for assignment to symbolic references STOP 
+START both index words and electronic switches may have been made UNK before the start of assignment in one of the following ways STOP 
+START 1 STOP 
+START -hlthe initial setting of the availability table indicated that the index word or electronic switch was not available for assignment STOP 
+START 2 STOP 
+START -hlthe UNK or UNK number of the index word or electronic switch was used in the operand of a symbolic machine instruction to specify UNK or as a UNK which is always an index word or electronic switch e.g. 3 STOP 
+START -hlthe UNK or UNK number of the index word or electronic switch was used in the operand of an UNK statement e.g. when the index words or electronic switches are reserved because of actual usage in the statements described above the position or order of the statements within the program is not important such reference will make the index word or electronic switch UNK at the end of this pass STOP 
+START during the assignment pass of phase 3 index words and electronic switches are reserved as they are encountered during assignment STOP 
+START index words and electronic switches may be reserved in the following ways STOP 
+START the first two methods apply to both index words and electronic switches third applies only to index words STOP 
+START 1 STOP 
+START UNK the assignment pass each instruction is examined for reference to the symbolic name of an index word or electronic switch STOP 
+START when such a reference is found an actual address is assigned and the availability table is changed so that the assigned index word or switch is no longer available for later assignment STOP 
+START 2 STOP 
+START -hlif the UNK or UNK address of an index word or electronic switch is used or is included in the operand of an UNK or UNK statement see page UNK the corresponding index word or electronic switch is reserved STOP 
+START 3 STOP 
+START -hlif a statement has been assigned an address in the index word area by means of an actual label or by means of an origin statement which refers to an actual address the corresponding index word will be reserved STOP 
+START these entries should normally appear at the beginning of the program or immediately following each UNK statement STOP 
+START otherwise symbolic names may have previously been assigned to these same index words STOP 
+START this method does not apply to electronic switches STOP 
+START the preceding methods allow efficient use of index words and electronic switches during a UNK or UNK program particularly when used in conjunction with the UNK statement STOP 
+START extreme caution should be used however to avoid the UNK usage of an index word or electronic switch which may result from the assignment of more than one name or function to the same address STOP 
+START if the symbolic name or actual address of an index word or electronic switch appears or is included in the operand of an UNK or UNK statement see page UNK the specified index word or electronic switch will again be made available regardless of the method by which it was reserved STOP 
+START it will not however be used for symbolic assignment until all other index words or electronic switches have been assigned for the first time STOP 
+START if at any time during the assignment pass the UNK finds that there are no more index words available for assignment the warning message no more index words available will be placed in the object program UNK the table will be altered to show that index words 1 through UNK are available and the assignment will continue as before STOP 
+START if the UNK finds that there are no more electronic switches available for assignment the warning message no more electronic switches available will be placed in the object program UNK the table will be altered to show that electronic switches 1 through 30 are available and assignment will continue as before STOP 
+START the resultant UNK usage of index words or electronic switches may be avoided by reducing the number of symbolic names used e.g. through the proper use of the UNK UNK or UNK statements STOP 
+START as noted in UNK c index words UNK through UNK are never available for assignment to symbolic names by the UNK index words UNK through UNK may have been made UNK for assignment STOP 
+START UNK statements UNK UNK statements provide the UNK with the necessary information to complete the UNK operations properly STOP 
+START UNK statements are never executed in the object program and should be separated from the program instruction area placed preferably at its beginning or end STOP 
+START otherwise special care must be taken to branch around them so that the program will not attempt to UNK something in a data area as an instruction STOP 
+START if the UNK does encounter such statements a warning message will be issued STOP 
+START UNK UNK includes the following UNK statements da define area UNK define constant UNK define record definition word UNK define switch UNK define line UNK UNK UNK define tape file UNK define input control system and UNK UNK entry for unit records STOP 
+START da UNK UNK and UNK require more than one entry STOP 
+START the da statement is used to name and define the positions and length of fields within an area STOP 
+START the UNK statement is used to name and enter UNK into the object program STOP 
+START since the UNK and UNK make use of record definition words UNK to read write move and otherwise examine blocks of storage the da and UNK statements provide the UNK of UNK UNK automatically STOP 
+START when so instructed UNK will UNK one or more UNK and assign them successive locations immediately preceding the area with which they are to be associated STOP 
+START an UNK will be of the form af where UNK is the starting location of the area and UNK is its ending location STOP 
+START these addresses are calculated automatically by the UNK STOP 
+START in some cases it may be more UNK to assign locations to UNK associated with da and UNK areas in some other part of storage i.e. not immediately preceding the da or UNK areas STOP 
+START the UNK statement may be used for this purpose STOP 
+START the UNK statement may also be used to UNK an UNK UNK any area specified by the UNK STOP 
+START as many as ten UNK switches may be named and provided by the UNK statement for consideration by the UNK and logic UNK STOP 
+START each switch UNK one UNK position in a word can be set on or off and is considered as logically equivalent to an electronic switch STOP 
+START it cannot however be referred to by electronic switch commands e.g. UNK UNK etc. STOP 
+START an individual switch or the entire set of switches in a word may be tested or altered as desired STOP 
+START through use of the UNK statement a means is provided for UNK both the UNK of fields to be inserted in a print line area and the UNK of the area itself STOP 
+START the area may include constant information supplied by the UNK STOP 
+START the area may also be provided with additional data during the running of the object program by means of UNK or move UNK STOP 
+START the UNK statement UNK permits the UNK to UNK symbolic names to actual index words electronic switches arm and file numbers tape channel and unit numbers UNK switches etc. and to UNK a symbol to another symbol or to an actual address STOP 
+START the UNK UNK and UNK statements are used when required by the input control system STOP 
+START UNK is used to select the major methods of processing to be used and to name the index words used by aj STOP 
+START each tape file must be described by tape file UNK produced by aj STOP 
+START in addition to information related to the file and its records the file UNK contain UNK locations and the location of tape label information STOP 
+START a UNK entry must be supplied for every unit record file describing the type of file and the unit record equipment to be used STOP 
+START the UNK also supplies the locations of UNK written by the UNK that are unique to the file STOP 
+START a full description of the UNK UNK and UNK statements is contained in the UNK data processing system bulletin UNK UNK input control system form aj STOP 
+START brief UNK of these three UNK statements and detailed UNK of the UNK and functions of each of the other UNK UNK UNK statements follow below STOP 
+START UNK define input control system when the input control system is to be used in a program a UNK statement must be used to select the major methods of processing to be used STOP 
+START this statement also allows the UNK of the index words used by aj STOP 
+START source program UNK the basic UNK of the UNK statement is as follows UNK is any symbolic label may be omitted STOP 
+START the entry UNK must be written exactly as shown STOP 
+START the first item in the operand UNK is used to specify the first UNK index word for programs using tape files STOP 
+START this item may be a symbolic name or an actual UNK or UNK index word address in the range 3 UNK STOP 
+START if the first item in the operand is omitted the symbolic name UNK will be assigned STOP 
+START when an actual index word or a symbolic address is specified UNK will UNK the name UNK to it STOP 
+START the second item in the operand UNK is used to specify the second UNK index word for programs using tape files STOP 
+START this item may be a symbolic name or an actual UNK or UNK index word address in the range 3 UNK STOP 
+START if the second item in the operand is omitted the symbolic name UNK will be assigned STOP 
+START when an actual index word or a symbolic address is specified UNK will UNK UNK to it STOP 

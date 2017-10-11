@@ -1,0 +1,98 @@
+START UNK UNK image UNK is applied under conditions of low incident light levels whenever the integration time required by a UNK or recording instrument UNK the limits of UNK STOP 
+START examples of such situations are UNK night UNK the recording of UNK UNK in live body tissues special UNK in medical or industrial applications track recording of high energy particles etc. STOP 
+START UNK UNK image UNK may be achieved by several methods of these are listed below a UNK single stages by UNK lens systems b UNK secondary emission image UNK c image UNK based upon the UNK principle d transmission secondary electron UNK image UNK UNK tubes e UNK of single stages enclosed in one common envelope STOP 
+START UNK single stages by UNK lens systems is rather UNK as the lens systems limit the obtainable gain quite severely STOP 
+START UNK image UNK are capable of achieving UNK values suffer however from an UNK low resolution STOP 
+START image UNK based upon the UNK principle appear to hold promise as far as obtainable resolution is concerned STOP 
+START however the UNK UNK cycle UNK the effective gain STOP 
+START UNK tubes have been constructed showing high gain and resolution STOP 
+START however UNK focus important for many applications has not been realized for these devices STOP 
+START resolution limitations with UNK focus might be anticipated due to UNK UNK STOP 
+START furthermore the thin film UNK appear to have a natural diameter UNK wherever a UNK support cannot be UNK STOP 
+START UNK single stages enclosed by a common envelope have been constructed with high gain and high resolution STOP 
+START these tubes may differ both in the choice of the electron optical system and in the design of the UNK members STOP 
+START the electron optical system may be either a magnetic or UNK one STOP 
+START the UNK may be smaller equal or larger than unity STOP 
+START an UNK system UNK generally from image plane UNK leading to UNK in the UNK image region if a flat UNK screen or UNK UNK is UNK while a magnetic system requires accurate adjustment of the UNK which is heavy and UNK STOP 
+START as it will be discussed later UNK UNK can be improved on by UNK UNK fiber UNK STOP 
+START it should be noted however that the UNK resolution is quite similar for both electron optical systems STOP 
+START it is felt that UNK UNK and UNK stage image UNK will gain considerable importance in the future STOP 
+START therefore we shall consider in this paper the theoretical gain and resolution capabilities of such tubes STOP 
+START the luminous efficiency and resolution of single stages fiber UNK and finally of the composite tube will be computed STOP 
+START it will be shown UNK that the high image UNK obtainable with such a tube and contact UNK permits the UNK of extremely low incident light levels STOP 
+START the effect of device and UNK noise associated with such low input levels will be described STOP 
+START after these theoretical considerations UNK details of a UNK UNK x-ray image UNK will be discussed STOP 
+START measured performance characteristics for this experimental tube will be listed STOP 
+START the conclusion shall be reached that UNK UNK tubes represent a sensible and practical approach to UNK image UNK STOP 
+START basic design of a UNK UNK image UNK the tube design which forms the basis of the theoretical discussion shall be described now STOP 
+START the electron optical system see fig. UNK is based in principle on the UNK action of UNK UNK UNK and anode surfaces STOP 
+START the inner anode sphere is UNK UNK into a cup and UNK by the phosphor screen STOP 
+START the UNK UNK from a circular UNK of the UNK sphere are focused by the positive lens action of the two UNK UNK pass through the negative lens formed by the anode UNK and UNK upon the UNK UNK screen STOP 
+START the cylindrical UNK UNK permits adjustment of the positive lens part by varying the UNK potential STOP 
+START the anode potential UNK the gain g and UNK m of the stage STOP 
+START both the UNK and the image plane of such an UNK UNK are UNK UNK as seen from the anode UNK STOP 
+START the UNK property of the UNK fiber UNK can be UNK to UNK the UNK resolution losses resulting with a flat UNK or UNK member STOP 
+START for the same reason the output fiber plate is UNK its exposed flat side UNK contact UNK if a permanent record is desired STOP 
+START as it will be shown later the UNK properties of the UNK and output fiber UNK comprise indeed the main advantage of such a design STOP 
+START the second UNK and both phosphor surfaces are UNK on the fiber plate UNK STOP 
+START the UNK UNK s phosphor UNK p and anode UNK v of the individual stages shall be distinguished by means of UNK 1 and 2 in the text where required STOP 
+START both stages are assumed to have unity UNK STOP 
+START theoretical discussion of flux gain flux gain of a single stage the luminous gain of a single stage with af flux gain is to a first UNK given by the product of the UNK sensitivity s UNK UNK the anode potential v UNK and the phosphor conversion efficiency p UNK STOP 
+START in general p is a function of v and the current density but it shall here be assumed as a constant STOP 
+START the luminous efficiency af of a UNK depends on the maximum UNK sensitivity af and on the UNK distribution of the incident light af by the relation af where af is UNK UNK UNK sensitivity STOP 
+START af is standard UNK function STOP 
+START the luminous flux gain of a single stage is given by af STOP 
+START if the input light distribution falls beyond the visible range af as expected since af STOP 
+START such cases are not considered here STOP 
+START efficiency of fiber UNK the efficiency of fiber UNK plates depends on four factors a numerical UNK UNK b end UNK reflection losses r c internal losses UNK d packing efficiency UNK STOP 
+START the numerical UNK of the fibers is given by af where af STOP 
+START the angle af is measured in the medium of index af STOP 
+START settled UNK as generally used in image UNK have low optical contact with the substrate surface hence af shall be assumed STOP 
+START the numerical UNK should be in general close to unity STOP 
+START this condition can be satisfied e.g. with af and af or equivalent glass combinations STOP 
+START a sufficiently good UNK for determining the end reflection losses r can be obtained from the angle independent UNK formula af STOP 
+START for phosphor to fiber and fiber to air surfaces and assuming af we obtain af percent STOP 
+START this value may be reduced to UNK percent by means of a very thin glass layer of index 1.5 STOP 
+START hence the af factor for the output fiber UNK is af STOP 
+START as the index of UNK of UNK surfaces of the UNK lies around 2 the UNK losses at the UNK UNK are about UNK percent and the af factor for the UNK UNK is UNK STOP 
+START it might be anticipated that multiple coatings will reduce end reflection losses even further STOP 
+START the internal losses are due to absorption and the small but finite losses suffered in the numerous internal UNK due to UNK from the prescribed cylindrical fiber UNK and minute UNK of the UNK UNK STOP 
+START these losses depend on fiber diameter and length absorption UNK the mean value of the loss per internal reflection and last but not least on the angular distribution of the incident light STOP 
+START explicit expressions integral UNK are given in the literature STOP 
+START lacking reliable data for some of the variables we are UNK on experimental data of about 20 percent internal losses for 1 long small 5 10 m diameter fibers STOP 
+START this relatively high value is probably due to the small fiber UNK increasing the number of internal UNK STOP 
+START since we are considering here relatively small diameter 1 1.5 inches fiber plates their average thickness can be kept below 1 inch and their internal losses may be assumed as 15 percent per plate STOP 
+START the packing efficiency UNK of fiber plates did not receive much attention in the literature probably as it is high for the larger fibers generally used until rather recently STOP 
+START for circular fibers in a closely packed UNK array the packing efficiency is given by af where af and UNK is the ratio of the area of a circle to that of the UNK UNK STOP 
+START for the small diameter fibers now UNK feasible and required for about 100 af resolution af STOP 
+START the UNK thickness is about UNK m hence af and af STOP 
+START thus the efficiency UNK UNK is given by af or approximately 50 percent each STOP 
+START it must be remembered that the fiber plates replace a glass window and a UNK UNK in addition to an optical output lens system STOP 
+START the efficiency af of an af lens at the UNK af is af STOP 
+START UNK absorption the end losses of the UNK UNK and the output window af would be 6 percent and 8 percent STOP 
+START thus the combined efficiency of the elements replaced by the two fiber plates with a combined efficiency of UNK is UNK or about six times less than that of the two fiber plates STOP 
+START gain of fiber coupled image UNK including the brightness gain af due to the af area UNK the overall gain of a fiber coupled double stage image UNK is af STOP 
+START it is obvious that the careful choice of UNK which UNK af for a given input e in the case of the second stage for the first phosphor screen emission is very important STOP 
+START the same consideration should UNK the choice of the UNK phosphor screen for matching with the UNK sensitivity of the ultimate UNK e.g. photographic UNK STOP 
+START we have evaluated the matching UNK for two types of UNK UNK and UNK and three types of light input STOP 
+START the input light UNK considered are UNK and UNK phosphor emission and the so-called night light UNK as given by UNK UNK and j. j. johnson STOP 
+START the UNK in units are listed in table UNK below STOP 
+START theoretical discussion of UNK device resolution resolution limitations in a single stage the resolution limitations for a single stage are given by the inherent resolution of the electron optical system as well as the resolution capabilities of the UNK UNK screen STOP 
+START the resolution capabilities of an UNK system depend on both the choice of UNK and UNK UNK STOP 
+START it has been stated previously that a UNK UNK system UNK a lower resolution than a UNK system or a system with unity UNK STOP 
+START furthermore the UNK UNK depend on the chosen high voltage STOP 
+START in general a high anode voltage UNK UNK UNK and thus increases the obtainable resolution STOP 
+START the luminous gain of the discussed tube was calculated from UNK 6 for the 16 possible combinations of UNK and UNK UNK and UNK and UNK phosphor UNK for night light and UNK light input STOP 
+START the UNK input is of interest because it UNK roughly to the light emission of conventional x-ray UNK UNK STOP 
+START the following UNK obtained from UNK and UNK UNK were used af STOP 
+START the following table UNK lists the luminous gain values computed according to UNK 6 with af STOP 
+START the possibility of a space charge UNK of the screen UNK of the elementary electron UNK has been pointed out STOP 
+START it is obvious that such an influence can only be expected in the final stage of an image UNK at rather high output levels STOP 
+START space charge influences will also decrease at increased UNK STOP 
+START UNK systems of the UNK type have been tested for resolution capabilities by applying UNK STOP 
+START a resolution of 70 80 UNK per UNK appears to be feasible STOP 
+START the inherent resolution of a UNK phosphor screen UNK with increasingly UNK thickness with increasing anode voltage UNK with UNK UNK thus the advantage of UNK phosphor UNK and might be UNK by the normally used aluminum mirror STOP 
+START thus in general elementary light optical effects light UNK and electron UNK determine the obtainable resolution limit STOP 
+START it should be noted that UNK due to UNK generated within the UNK screen by electron impact appears to be important only if anode UNK in excess of 30 UNK are UNK STOP 
+START it has been stated that settled UNK phosphor UNK may have a limiting resolution of 60 af at high voltage values of approximately 20 aj STOP 
+START for the further discussion we shall thus assume an electron optical resolution of 80 af and phosphor screen resolution of 60 af STOP 

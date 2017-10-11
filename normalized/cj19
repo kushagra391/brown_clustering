@@ -1,0 +1,112 @@
+START UNK STOP 
+START UNK of binomial experiments some experiments are composed of UNK of independent trials each with two possible outcomes STOP 
+START the binomial probability distribution may describe the variation that occurs from one set of trials of such a binomial experiment to another STOP 
+START we devote a chapter to the binomial distribution not only because it is a mathematical model for an enormous variety of real life phenomena but also because it has important properties that UNK in many other probability models STOP 
+START we begin with a few examples of binomial experiments STOP 
+START UNK example STOP 
+START -hla trained UNK shooting five rounds at a target all under practically the same conditions may hit the UNK from 0 to 5 times STOP 
+START in repeated sets of five shots his numbers of UNK vary STOP 
+START what can we say of the probabilities of the different possible numbers of UNK in UNK STOP 
+START -hlin UNK of eight UNK from similar parents the number of UNK with straight instead of UNK hair is an UNK from 0 to 8 STOP 
+START what probabilities should be attached to these possible outcomes ones with three dice STOP 
+START UNK three dice are tossed repeatedly what is the probability that the number of UNK is 0 or 1 or 2 or 3 binomial problem STOP 
+START UNK generally suppose that an experiment consists of a number of independent trials that each trial results in either a success or a UNK failure and that the probability of success remains constant from trial to trial STOP 
+START in the examples above the occurrence of a UNK a UNK UNK or an ace could be called a success STOP 
+START in general any outcome we choose may be UNK success STOP 
+START the major question in this chapter is what is the probability of exactly x successes in n trials chapters 3 and 4 we answered questions like those in the examples usually by counting points in a sample space STOP 
+START fortunately a general formula of wide UNK UNK all problems of this kind STOP 
+START before UNK this formula we explain what we mean by problems of this kind STOP 
+START experiments are often composed of several identical trials and sometimes experiments themselves are repeated STOP 
+START in the UNK example a trial consists of one round shot at a target with outcome either one UNK success or none failure STOP 
+START further an experiment might consist of five rounds and several sets of five rounds might be regarded as a UNK composed of several UNK of the UNK experiment STOP 
+START if three dice are tossed a trial is one UNK of one die and the experiment is composed of three trials STOP 
+START or what amounts to the same thing if one die is tossed three times each UNK is a trial and the three UNK form the experiment STOP 
+START UNK we shall not distinguish the experiment of three dice tossed once from that of one die tossed three times STOP 
+START these examples are UNK of the use of the words trial and experiment as they are used in this chapter but they are quite flexible words and it is well not to restrict them too UNK STOP 
+START example 1 STOP 
+START UNK football managers STOP 
+START UNK students act as managers for a UNK football team and of these managers a proportion p are UNK drivers STOP 
+START each friday one manager is chosen by lot to stay late and load the equipment on a truck STOP 
+START on three UNK the coach has needed a driver STOP 
+START considering only these UNK what is the probability that the coach had drivers all 3 times 2 times time times STOP 
+START UNK that there are 3 trials of interest STOP 
+START each trial consists of choosing a student manager at random STOP 
+START the 2 possible outcomes on each trial are driver or UNK STOP 
+START since the choice is by lot each week the outcomes of different trials are independent STOP 
+START the managers stay the same so that af is the same for all weeks STOP 
+START we now UNK these ideas for general binomial experiments STOP 
+START for an experiment to qualify as a binomial experiment it must have four properties 1 there must be a fixed number of trials 2 each trial must result in a success or a failure a binomial trial 3 all trials must have identical probabilities of success 4 the trials must be independent of each other STOP 
+START below we use our earlier examples to describe and illustrate these four properties STOP 
+START we also give for each property an example where the property is absent STOP 
+START the language and UNK introduced are standard throughout the chapter STOP 
+START 1 STOP 
+START -hlthere must be a fixed number n of repeated trials STOP 
+START UNK the UNK we study sets of five shots af the UNK we restrict attention to UNK of eight af for the UNK we UNK three dice af STOP 
+START experiment without a fixed number of trials STOP 
+START UNK a die until an ace appears STOP 
+START here the number of trials is a random variable not a fixed number STOP 
+START 2 STOP 
+START UNK trials STOP 
+START UNK of the n trials is either a success or a failure STOP 
+START success and failure are just convenient UNK for the two categories of outcomes when we talk about binomial trials in general STOP 
+START these words are more UNK than UNK like a and UNK STOP 
+START it is natural from the UNK viewpoint to call a UNK a success but in the UNK example it is arbitrary which category UNK to straight hair in a UNK STOP 
+START the word binomial means of two names or of two terms and both UNK apply in our work the first to the names of the two outcomes of a binomial trial and the second to the terms p and af that represent the probabilities of success and failure STOP 
+START sometimes when there are many outcomes for a single trial we group these outcomes into two classes as in the example of the die where we have UNK constructed the classes ace and UNK STOP 
+START experiment without the UNK property STOP 
+START UNK UNK UNK as UNK or UNK but a UNK UNK appears STOP 
+START we can escape from such a difficulty by ruling out the animal as not UNK a trial but such a solution is not always satisfactory STOP 
+START 3 STOP 
+START UNK trials have identical probabilities of success STOP 
+START UNK die has probability af of producing an ace UNK has some probability p perhaps UNK of making a UNK STOP 
+START note that we need not know the value of p for the experiment to be binomial STOP 
+START experiment where p is not constant STOP 
+START UNK a round of target practice the sun comes from behind a cloud and UNK the UNK UNK his chance of a UNK STOP 
+START 4 STOP 
+START -hlthe trials are independent STOP 
+START UNK speaking this means that the probability for each possible outcome of the experiment can be computed by UNK together the probabilities of the possible outcomes of the single binomial trials STOP 
+START thus in the UNK example af af and the independence assumption imply that the probability that the three dice fall ace UNK ace in that order is af STOP 
+START UNK we expect independence when the trials have nothing to do with one another STOP 
+START examples where independence fails STOP 
+START -hla family of five plans to go together either to the beach or to the mountains and a UNK is tossed to decide STOP 
+START we want to know the number of people going to the mountains STOP 
+START when this experiment is viewed as composed of five binomial trials one for each member of the family the outcomes of the trials are obviously not independent STOP 
+START indeed the experiment is better viewed as consisting of one binomial trial for the entire family STOP 
+START the following is a less extreme example of dependence STOP 
+START consider couples visiting an art museum STOP 
+START each person votes for one of a pair of pictures to receive a popular prize STOP 
+START voting for one picture may be called success for the other failure STOP 
+START an experiment consists of the voting of one couple or two trials STOP 
+START in UNK of the experiment from couple to couple the votes of the two persons in a couple probably agree more often than independence would imply because couples who visit the museum together are more likely to have similar UNK than are a random pair of people drawn from the entire population of visitors STOP 
+START table UNK UNK the point STOP 
+START the table shows that UNK of the boys and UNK of the girls vote for picture a STOP 
+START therefore under independent voting af or UNK of the couples would cast two votes for picture a and af or UNK would cast two votes for picture b STOP 
+START thus in independent voting af or UNK of the couples would agree STOP 
+START but table UNK shows that af or UNK agree too many for independent voting STOP 
+START each performance of an UNK binomial experiment results in some whole number from 0 through n as the value of the random variable x where af STOP 
+START we want to study the probability function of this random variable STOP 
+START for example we are interested in the number of UNK not which shots were UNK STOP 
+START a binomial experiment can produce random variables other than the number of successes STOP 
+START for example the UNK gets 5 shots but we take his score to be the number of shots before his first UNK that is 0 1 2 3 4 or 5 if he gets no UNK STOP 
+START thus we do not score the number of UNK and the random variable is not the number of successes STOP 
+START the UNK of p and the independence are the conditions most likely to give trouble in practice STOP 
+START obviously very slight changes in p do not change the probabilities much and a slight lack of independence may not make an UNK difference STOP 
+START for instance see example 2 of section UNK on red cards in hands of 5 STOP 
+START on the other hand even when the binomial model does not describe well the physical phenomenon being studied the binomial model may still be used as a UNK for comparative purposes is we may discuss the phenomenon in terms of its UNK from the binomial model STOP 
+START to UNK a binomial experiment consists of af independent binomial trials all with the same probability af of UNK a success STOP 
+START the outcome of the experiment is x successes STOP 
+START the random variable x takes the values af with probabilities af or more briefly af STOP 
+START we shall find a formula for the probability of exactly x successes for given values of p and n STOP 
+START when each number of successes x is UNK with its probability of occurrence af the set of pairs af is a probability function called a binomial distribution STOP 
+START the choice of p and n determines the binomial distribution UNK and different choices always produce different UNK except when af the number of successes is always 0 STOP 
+START the set of all binomial UNK is called the family of binomial UNK but in general discussions this expression is often UNK to the binomial distribution or even the binomial when the context is clear STOP 
+START binomial UNK were treated by james UNK about UNK and for this reason binomial trials are sometimes called UNK trials STOP 
+START random variables STOP 
+START UNK binomial trial of a binomial experiment produces either 0 or 1 success STOP 
+START therefore each binomial trial can be thought of as producing a value of a random variable associated with that trial and taking the values 0 and 1 with probabilities q and p respectively STOP 
+START the several trials of a binomial experiment produce a new random variable x the total number of successes which is just the sum of the random variables associated with the single trials STOP 
+START example 2 STOP 
+START -hlthe UNK gets two UNK one on his third shot and one on his fifth STOP 
+START the numbers of successes on the five individual shots are then 0 0 1 0 1 STOP 
+START the number of successes on each shot is a value of a random variable that has values 0 or 1 and there are 5 such random variables here STOP 
+START their sum is x the total number of successes which in this experiment has the value af STOP 

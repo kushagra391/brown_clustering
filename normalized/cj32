@@ -1,0 +1,91 @@
+START the many UNK techniques for reducing the amount of dictionary information that have been proposed all organize the UNK contents around UNK stems UNK etc. STOP 
+START a significant reduction in the UNK of store information is thus realized especially for a highly UNK language such as russian STOP 
+START for english the reduction in size is less striking STOP 
+START this approach requires that 1 each text word be separated into smaller elements to establish a correspondence between the occurrence and dictionary entries and 2 the information UNK from several entries in the dictionary be UNK into a description of the particular word STOP 
+START the logical scheme used to accomplish the former influences the placement of information in the dictionary file STOP 
+START UNK of the latter requires storage of information needed only for synthesis STOP 
+START we suggest the application of certain UNK techniques as a solution to the problem STOP 
+START but first we must define two terms so that their meaning will be clearly understood form any unique sequence of UNK characters that can appear in a language preceded and followed by a space an instance of a form in text STOP 
+START we propose a method for selecting only dictionary information required by the text being translated and a means for passing the information directly to the UNK in text STOP 
+START we accomplish this by UNK a list of text forms as text is read by the computer STOP 
+START a UNK scheme based on the UNK of forms provides an economical way to UNK this UNK list STOP 
+START dictionary forms found to match forms in the text list are marked STOP 
+START a location in the computer store is also named for each marked form information about the form stored at this location can be UNK directly by UNK of the form in text STOP 
+START finally information is UNK from the dictionary as required by stages of the translation process the UNK description for UNK determination UNK information for UNK analysis and UNK UNK for output construction STOP 
+START the dictionary is a form dictionary at least in the sense that complete forms are used as the basis for matching text UNK with dictionary entries STOP 
+START also the dictionary is divided into at least two parts the list of dictionary forms and the file of information that UNK to these forms STOP 
+START a more detailed description of dictionary operations text UNK and dictionary UNK gives a clearer picture STOP 
+START text UNK as we will describe it consists of three steps STOP 
+START the first is UNK a list of text forms UNK an information cell to each and UNK text UNK with the information cell assigned to the form of each occurrence STOP 
+START for this step the computer memory is separated into three regions cells in the UNK are used for storage of the forms in the UNK list in the UNK and UNK region are reserved as information cells for text forms STOP 
+START when an occurrence af is isolated during text reading a random memory address af the address of a cell in the UNK is computed from the form of af STOP 
+START let af UNK the form of af STOP 
+START if cell af has not previously been assigned as the information cell of a form in the UNK list it is now assigned as the information cell of af STOP 
+START the form itself is stored in the next available cells of the UNK beginning in cell af STOP 
+START the address af and the number of cells required to store the form are written in af information cell af is saved to represent the text occurrence STOP 
+START text reading continues with the next occurrence STOP 
+START let us assume that af is identical to the form of an occurrence af which preceded af in the text STOP 
+START when this situation exists the address af will equal af which was produced from af STOP 
+START if af was assigned as the information cell for af the routine can UNK that af is identical to af by UNK af with the form stored at location af STOP 
+START the address af is stored in the cell af STOP 
+START when as in this case the two forms match the address af is saved to represent the occurrence af STOP 
+START text reading continues with the next occurrence STOP 
+START a third situation is possible STOP 
+START the formula for computing random addresses from the form of each occurrence will not give a distinct address for each distinct form STOP 
+START thus when more than one distinct form leads to a particular cell in the UNK a chain of information cells must be created to accommodate the forms one cell in the chain for each form STOP 
+START if af leads to an address af that is equal to the address computed from af even though af does not match af the chain of information cells is extended from af by UNK the address of the next available cell in the UNK af in af STOP 
+START the cell af becomes the second information cell in the chain and is assigned as the information cell of af STOP 
+START a third cell can be added by UNK the address of another UNK in af as many cells are added as are required STOP 
+START each information cell in the chain contains the address of the UNK where the form to which it is assigned is stored STOP 
+START each cell except the last in the chain also contains the address of the UNK that is the next element of the chain absence of such a link in the last cell indicates the end of the chain STOP 
+START hence when the address af is computed from af the cell af and all UNK in its chain must be UNK to determine whether af is already in the form list or whether it should be added to the form list and the chain STOP 
+START when the information cell for af has been determined it is saved as a representation of af STOP 
+START text reading continues with the next occurrence STOP 
+START text reading is UNK when a UNK number of forms have been stored in the UNK list STOP 
+START this UNK the second step of UNK UNK UNK the information cell of forms in the UNK list to dictionary forms STOP 
+START each form represented by the dictionary is looked up in the UNK list STOP 
+START each time a dictionary form matches a text form the information cell of the matching text form is saved STOP 
+START the number of dictionary forms UNK since the last one matched is also saved STOP 
+START these two pieces of information for each dictionary form that is matched by a text form constitute the table of dictionary usage STOP 
+START if each text form is marked when matched with a dictionary form the text forms not contained in the dictionary can be identified when all dictionary forms have been read STOP 
+START the appropriate action for handling these forms can be taken at that time STOP 
+START each dictionary form is looked up in the UNK list by the same method used to look up a new text occurrence in the form list during text reading STOP 
+START a random address af that lies within the UNK of memory mentioned earlier is computed from the UNK dictionary form STOP 
+START if cell af is an information cell it and any information cells in the UNK that have been linked to af each contain an address in the UNK where a UNK matching form is stored STOP 
+START the dictionary form is compared with each of these text forms STOP 
+START when a match is found an entry is made in the table of dictionary usage STOP 
+START if cell af is not an information cell we conclude that the UNK dictionary form is not in the text list STOP 
+START these two steps essentially complete the UNK operation STOP 
+START the final step merely uses the table of dictionary usage to select the dictionary information that UNK to each form matched in the UNK list and uses the list of information cells recorded in text order to attach the appropriate information to each occurrence in text STOP 
+START the list of text forms in the UNK of memory and the contents of the information cells in the x and UNK are no longer required STOP 
+START only the assignment of the information cells is important STOP 
+START the first stage of translation after UNK UNK is structural analysis of the input text STOP 
+START the UNK description of each occurrence in the text must be UNK from the dictionary to permit such an analysis STOP 
+START a description of this process will serve to illustrate how any type of information can be UNK from the dictionary and attached to each text occurrence STOP 
+START the UNK UNK of all forms in the dictionary are recorded in a separate part of the dictionary file STOP 
+START the order is identical to the ordering of the forms they describe STOP 
+START when entries are being UNK from this file the table of dictionary usage indicates which entries to UNK and which entries to store in the computer STOP 
+START this UNK process takes place as the file is read STOP 
+START each entry that is selected for storage is written into the next available cells of the aj STOP 
+START the address of the first cell and the number of cells used is written in the information cell for the form STOP 
+START the address of the information cell is also supplied by the table of dictionary usage STOP 
+START when the complete file has been read the UNK UNK for all text forms found in the dictionary have been stored in the UNK information cell assigned to each text form contains the address of the UNK description of the form it represents STOP 
+START hence the description of each text occurrence can be UNK by reading the list of UNK UNK addresses and UNK the description indicated by the information cell for each occurrence STOP 
+START the only requirements on dictionary information made by the UNK operation are that each form represented by the dictionary be available for UNK in the UNK list and that information for each form be available in a sequence identical with the sequence of the forms STOP 
+START this leaves the ordering of entries variable STOP 
+START here an entry is a form plus the information that UNK to it STOP 
+START two very useful ways for UNK a UNK are the addition to the dictionary of complete UNK rather than single forms and the application of a single change to more than one dictionary form STOP 
+START the former is intended to decrease the amount of work necessary to extend dictionary coverage STOP 
+START the latter is useful for UNK information about some or all forms of a word hence reducing the work required to improve dictionary contents STOP 
+START applying the techniques developed at harvard for UNK a UNK from a representative form and its classification we can add all forms of a word to the dictionary at once STOP 
+START an extension of the principle would permit entering a UNK description of each form STOP 
+START UNK could be assigned to the UNK either at the time it is added to the dictionary or after the word has been studied in context STOP 
+START thus one can think of a dictionary entry as a word rather than a form STOP 
+START if all forms of a UNK are UNK together within the dictionary a considerable reduction in the amount of information required is possible STOP 
+START for example the UNK forms of a word can be represented UNK as regular UNK allows by a stem and a set of UNK to be attached STOP 
+START indeed the set of UNK can be replaced by the name of a set of UNK STOP 
+START the full forms can be derived from such information just prior to the UNK of the form in the UNK list STOP 
+START similarly if the UNK for the forms of a word do not vary the UNK need be entered only once with an indication that they apply to each form STOP 
+START the dictionary system is in no way dependent upon such UNK or designed around it STOP 
+START when UNK and variation prevent UNK information is written in complete detail STOP 
+START entries are UNK only when by doing so the amount of information retained in the dictionary is reduced and the time required for dictionary operations is UNK STOP 

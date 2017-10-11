@@ -1,0 +1,103 @@
+START consider a simple closed plane curve c which is a UNK image of the unit circle and which is given by af STOP 
+START these are real analytic UNK functions with period t STOP 
+START in the following paper it is shown that in a certain definite sense exactly an odd number of squares can be UNK in every such curve which does not contain an infinite number of UNK squares STOP 
+START this theorem is similar to the theorem of UNK that there exists a UNK UNK around any closed UNK UNK set in af STOP 
+START the latter theorem has been UNK by UNK and UNK and UNK to show that in af there are families of such UNK STOP 
+START here for the case of squares UNK in plane curves we remove the UNK to UNK and give certain other results STOP 
+START a square UNK in a curve c means a square with its four corner points on the curve though it may not lie entirely in the interior of c STOP 
+START indeed the UNK af with the two UNK connected by a straight line UNK only one UNK square STOP 
+START the square has one corner point on the straight line UNK and does not lie entirely in the interior STOP 
+START on c from the point p at af to the point q at af we construct the UNK and upon the UNK as a side erect a square in such a way that as s approaches zero the square is inside c STOP 
+START as s increases we consider the two free corner points of the square af and af adjacent to p and q respectively STOP 
+START as s approaches t the square will be outside c and therefore both af and af must cross c an odd number of times as s varies from zero to t STOP 
+START the points may also touch c without crossing STOP 
+START suppose af UNK c when af STOP 
+START we now have certain squares with three corners on c STOP 
+START for any such square the middle corner of these will be called the vertex of the square and the corner not on the curve will be called the UNK point of the square STOP 
+START each point on c as a vertex may possess a finite number of corresponding UNK points by the above construction STOP 
+START to each UNK vertex and UNK point there UNK a unique forward corner point i.e. the corner on c reached first by proceeding along c from the vertex in the direction of increasing t STOP 
+START if the vertex is at af and if the interior of c is on the left as one moves in the direction of increasing t then every such corner can be found from the curve obtained by rotating c UNK through UNK about the vertex STOP 
+START the set of intersections of af the UNK curve with the original curve c consists of just the set of forward corner points on c corresponding to the vertex at af plus the vertex itself STOP 
+START we note that two such curves c and af cannot coincide at more than a finite number of points being analytic they would coincide at all points which is impossible since they do not coincide near af STOP 
+START with each vertex we associate certain numerical values namely the set of positive differences in the UNK t between the vertex and its corresponding forward corner points STOP 
+START for the vertex at af these values will be UNK by af STOP 
+START the function UNK defined in this way is UNK STOP 
+START we consider now the graph of the function UNK on af STOP 
+START we will refer to the plane of c and af as the UNK and to the plane of the graph as the aj STOP 
+START the graph as a set may have a finite number of components STOP 
+START we will UNK the values of UNK on different components by af STOP 
+START each point with UNK t on the graph represents an intersection between c and af STOP 
+START there are two types of such intersections depending essentially on whether the curves cross at the point of intersection STOP 
+START an ordinary point will be any point of intersection a such that in every neighborhood of a in the UNK af meets both the interior and the UNK of c STOP 
+START any other point of intersection between c and af will be called a tangent point STOP 
+START this UNK will also be applied to the corresponding points in the aj STOP 
+START we can now prove several UNK STOP 
+START UNK 1 STOP 
+START -hlin some neighborhood in the UNK of any ordinary point of the graph the function f is a UNK continuous function STOP 
+START proof STOP 
+START UNK first show that the function is UNK in some neighborhood STOP 
+START with the vertex at af in the UNK we assume that af is the UNK location on c of an ordinary intersection q between c and af STOP 
+START in the UNK the UNK of the corresponding point are af STOP 
+START we know that in the UNK both c and af are analytic STOP 
+START in the UNK we construct a set of UNK UNK UNK u v with the origin at q and such that both c and af have finite slope at q STOP 
+START near q both curves can be represented by analytic functions of u STOP 
+START in a neighborhood of q the difference between these functions is also a UNK analytic function of u STOP 
+START furthermore one can find a neighborhood of q in which the difference function is UNK for since it is analytic it can have only a finite number of UNK in any interval STOP 
+START now to find af one needs the intersection of c and af near q STOP 
+START but af is just the curve af translated without rotation through a small arc for af is always obtained by rotating c through exactly UNK STOP 
+START the arc is itself a UNK of an analytic curve STOP 
+START thus if e is sufficiently small there can be only one intersection of c and af near q for if there were more than one intersection for every e then the difference between c and af near q would not be a UNK function STOP 
+START therefore af is UNK near q STOP 
+START it is also seen that af since the change from af to af is accomplished by a continuous translation STOP 
+START thus af is also continuous at af and in a neighborhood of af which does not contain a tangent point STOP 
+START we turn now to the set of tangent points on the graph STOP 
+START this set must consist of isolated points and closed intervals STOP 
+START the fact that there can not be any limit points of the set except in closed intervals follows from the argument used in UNK 1 namely that near any tangent point in the UNK the curves c and af are analytic and therefore the difference between them must be a UNK function in some neighborhood on either side of the tangent point STOP 
+START this UNK the occurrence of an infinite sequence of isolated tangent points STOP 
+START UNK 2 STOP 
+START -hlin some neighborhood of an isolated tangent point in the UNK say af the function af is either UNK or has no values defined except at the tangent point itself where it is UNK STOP 
+START proof STOP 
+START -hla tangent point q in the UNK occurs when c and af are tangent to one another STOP 
+START a continuous change in t through an amount e results in a translation along an analytic arc of the curve af STOP 
+START there are three possibilities a af remains tangent to c as it is translated b af moves away from c and does not UNK it at all for af c af cuts across c and there are two ordinary intersections for every t in af STOP 
+START the first possibility results in a closed interval of tangent points in the UNK the end points of which fall into category b or c STOP 
+START in the second category the function af has no values defined in a neighborhood af STOP 
+START in the third category the function is UNK in this interval STOP 
+START the same remarks apply to an interval on the other side of af STOP 
+START again the UNK of the two curves UNK that such intervals exist STOP 
+START in the neighborhood of an end point of an interval of tangent points in the UNK the function is UNK or UNK on one side and is a UNK function consisting entirely of tangent points on the other side STOP 
+START with the above results we can make the following remarks about the graph of f STOP 
+START first for any value of t for which all values of UNK are ordinary points the number of values of UNK must be odd STOP 
+START for it is clear that the total number of ordinary intersections of c and af must be even otherwise starting in the interior of c af could not finally return to the interior and the center of rotation at t is the argument of the function not a value STOP 
+START therefore for any value of t the number of values of UNK is equal to the finite number of tangent points corresponding to the argument t plus an odd number STOP 
+START definition STOP 
+START -hlthe number of ordinary values of the function UNK at t will be called its UNK at t STOP 
+START UNK 3 STOP 
+START -hlthe graph of f has at least one component whose support is the entire interval aj STOP 
+START proof STOP 
+START UNK suppose not STOP 
+START then every component of the graph of f must be defined over a UNK UNK STOP 
+START suppose af is defined in the UNK af STOP 
+START now af and af must both be tangent points on the t component in the UNK by UNK 1 the component would extend beyond these points STOP 
+START further we see by UNK 2 that the UNK of f can only change at a tangent point and at such a point can only change by an even UNK STOP 
+START thus the UNK of af for a given t must be an even number STOP 
+START this is true of all components which have such a UNK support STOP 
+START but this is a contradiction for we know that the UNK of UNK is odd for every t STOP 
+START we have shown that the graph of f contains at least one component whose UNK is the entire interval UNK and whose UNK is odd STOP 
+START there must be an odd number of such components which will be called complete components STOP 
+START the remaining incomplete components all have an even number of ordinary points at any argument and are defined only on a proper UNK of aj STOP 
+START we must now show that on some component of the graph there exist two points for which the corresponding UNK points in the UNK are on opposite sides of c STOP 
+START we again consider a fixed point p at af and a variable point q at af on c STOP 
+START we erect a square with UNK as a side and with free corners af and af adjacent to p and q respectively STOP 
+START as s varies from zero to t the values of s for which af and af cross c will be UNK by af and af respectively STOP 
+START we have af plus tangent points STOP 
+START these UNK are just the ordinary values of af STOP 
+START UNK 4 STOP 
+START -hlthe values af are the ordinary values at af of a UNK function UNK which has components corresponding to those of UNK STOP 
+START proof STOP 
+START UNK first define a function UNK as follows given the set of squares such that each has three corners on c and vertex at t UNK is the corresponding set of positive UNK differences between t and the backward corner points STOP 
+START the functions f and b have exactly the same UNK at every argument t STOP 
+START now with p fixed at af UNK occur when the corner af UNK c and are among the values of s such that af STOP 
+START the roots of this equation are just the UNK of the intersections of the graph of b with a straight line of unit slope through af in the UNK the plane of the graph of b STOP 
+START we define these values as af and define UNK in the same way for each t STOP 
+START thus we obtain UNK by UNK an UNK UNK in the aj STOP 

@@ -1,0 +1,77 @@
+START introduction STOP 
+START -hlin 1 we investigate a new series of line UNK in a UNK space of three dimensions over the field of complex numbers STOP 
+START these are defined by a simple UNK transformation of the points in which a general line meets a UNK UNK surface bearing a curve of symbol af STOP 
+START then in 2 we show that any line UNK with the properties that a it has no complex of invariant lines and b its singular lines form a complex consisting exclusively of the lines which meet a twisted curve is necessarily of the type discussed in 1 STOP 
+START no UNK of these results to spaces of more than three dimensions has so far been found possible STOP 
+START 1 STOP 
+START UNK q be a UNK UNK surface bearing UNK af and af and let **zg be a af curve of order UNK on q STOP 
+START a general line l meets q in two points af and af through each of which passes a unique generator of the UNK af whose lines are simple secants of aj STOP 
+START on these UNK let af and af be respectively the UNK conjugates of af and af with respect to the two points in which the corresponding generator meets aj STOP 
+START the line af is the image of l STOP 
+START clearly the transformation is UNK STOP 
+START we observe first that no line l can meet its image except at one of its intersections with q STOP 
+START for if it did the plane of l and UNK would contain two UNK of af which is impossible STOP 
+START moreover from the UNK transformation of UNK on the UNK of af it is clear that the only points of q at which a line can meet its image are the points of aj STOP 
+START hence the UNK of singular lines is the t order complex of lines which meet aj STOP 
+START the invariant lines are the lines of the congruence of secants of **zg since each of these meets q in two points which are invariant STOP 
+START the order of this congruence is af since af secants of a curve of symbol b on a UNK surface pass through an arbitrary point STOP 
+START the class of the congruence is af since an arbitrary plane meets **zg in UNK points STOP 
+START since the complex of singular lines is of order UNK and since there is no complex of invariant lines it follows from the formula af that the order of the UNK is af STOP 
+START there are various sets of exceptional lines or lines whose images are not unique STOP 
+START the most obvious of these is the UNK complex of UNK to q each line of which is transformed into the entire pencil of lines tangent to q at the image of the point of UNK of the given line STOP 
+START thus UNK of UNK to q are transformed into UNK of UNK STOP 
+START it is interesting that a 1 1 correspondence can be established between the lines of two such UNK so that in a sense a unique image can actually be assigned to each tangent STOP 
+START for the lines of any plane UNK meeting q in a UNK c are transformed into the congruence of secants of the curve UNK into which c is transformed in the point UNK on q STOP 
+START in particular UNK to c are transformed into UNK to UNK STOP 
+START moreover if af and af are two planes UNK in a line l tangent to q at a point p the two free intersections of the image curves af and af must coincide at UNK the image of p and at this point af and af must have a common tangent UNK STOP 
+START hence thought of as a line in a particular plane UNK any tangent to q has a unique image and moreover this image is the same for all planes through l STOP 
+START each generator UNK of af is also exceptional for each is transformed into the entire congruence of secants of the curve into which that generator is transformed by the point UNK on q STOP 
+START this curve is of symbol af since it meets UNK and hence every line of af in the af invariant points on UNK and since it obviously meets every line of af in a single point STOP 
+START the congruence of its secants is therefore of order af and class af STOP 
+START a final class of exceptional lines is UNK from the following considerations since no two UNK of af can UNK it follows that their image curves can have no free intersections STOP 
+START in other words these curves have only fixed intersections common to them all STOP 
+START now the only way in which all curves of the image family of af can pass through a fixed point is to have a generator of af which is not a secant but a tangent of **zg for then any point on such a generator will be transformed into the point of UNK STOP 
+START since two curves of symbol af on q UNK in af points it follows that there are af lines of af which are tangent to aj STOP 
+START clearly any line l of any bundle having one of these points of UNK t as vertex will be transformed into the entire pencil having the image of the second intersection of l and q as vertex and lying in the plane determined by the image point and the generator of af which is tangent to **zg at t STOP 
+START a line through two of these points af and af will be transformed into the entire UNK congruence having the UNK to **zg at af and af as UNK STOP 
+START a UNK c being a 1 1 curve on q meets the image of any line of af which we have already found to be a af curve on q in af points STOP 
+START hence its image UNK meets any line of af in af points STOP 
+START moreover UNK obviously meets any line af in a single point STOP 
+START hence UNK is a af curve on q STOP 
+START therefore the congruence of its secants that is the image of a general plane field of lines is of order af and class af STOP 
+START finally the image of a general bundle of lines is a congruence whose order is the order of the congruence of invariant lines namely af and whose class is the order of the image congruence of a general plane field of lines namely af STOP 
+START 2 STOP 
+START -hlthe preceding observations make it clear that there exist line UNK of all orders greater than 1 with no complex of invariant lines and with a complex of singular lines consisting exclusively of the lines which meet a twisted curve aj STOP 
+START we now shall show that any UNK with these characteristics is necessarily of the type we have just described STOP 
+START to do this we must first show that every line which meets **zg in a point p meets its image at p STOP 
+START to see this consider a general pencil of lines containing a general secant of aj STOP 
+START by 1 the image of this pencil is a ruled surface of order af which is met by the plane of the pencil in a curve c of order af STOP 
+START on c there is a af correspondence in which the af points cut from c by a general line l of the pencil UNK to the point of intersection of the image of l and the plane of the pencil STOP 
+START since c is rational this correspondence has UNK UNK each of which implies a line of the pencil which meets its image STOP 
+START however since the pencil contains a secant of **zg it actually contains only af singular lines STOP 
+START to avoid this contradiction it is necessary that c be composite with the secant of **zg and a curve of order af as components STOP 
+START thus it follows that the secants of **zg are all invariant STOP 
+START but if this is the case then an arbitrary pencil of lines having a point p of **zg as vertex is transformed into a ruled surface of order af having af UNK UNK at p STOP 
+START since a ruled surface of order n with n UNK UNK is necessarily a cone it follows finally that every line through a point p of **zg meets its image at p as asserted STOP 
+START now consider the transformation of the lines of a bundle with vertex p on **zg which is effected by the UNK as a whole STOP 
+START from the preceding remarks it is clear that such a bundle is transformed into itself in an UNK fashion STOP 
+START moreover in this UNK there is a cone of invariant lines of order af namely the cone of secants of **zg which pass through p STOP 
+START hence it follows that the UNK within the bundle must be a perspective de UNK UNK of order af and the invariant UNK must have a multiple line of UNK either af or af STOP 
+START the first possibility requires that there be a line through p which meets **zg in af points second requires that there be a line through p which meets **zg in af points STOP 
+START in each case lines of the UNK are transformed by UNK within the UNK they determine with the multiple secant STOP 
+START in the first case the fixed elements within each pencil are the multiple secant and the line joining the vertex p to the intersection of **zg and the plane of the pencil which does not lie on the multiple secant STOP 
+START in the second the fixed elements are the lines which join the vertex p to the two intersections of **zg and the plane of the pencil which do not lie on the multiple secant STOP 
+START the multiple secants of course are exceptional and in each case are transformed into UNK of order af STOP 
+START observations similar to these can be made at each point of aj STOP 
+START hence **zg must have either a UNK of UNK secants or a UNK of UNK secants STOP 
+START moreover if af no two of the multiple secants can UNK STOP 
+START for if such were the case either the plane of the two lines would meet **zg in more than UNK points or UNK the order of the image UNK of the pencil determined by the two lines would be too high STOP 
+START but if no two lines of the UNK of multiple secants of **zg can UNK then the UNK must be UNK or in other words **zg must be either a af or a af curve on a UNK UNK surface STOP 
+START we now observe that the case in which **zg is a af curve on a UNK is impossible if the complex of singular lines consists exclusively of the lines which meet aj STOP 
+START for any pencil in a plane containing a UNK secant of **zg has an image UNK which meets the plane of the pencil in af lines namely the images of the lines of the pencil which pass through the intersection of **zg and the multiple secant plus an additional component to account for the intersections of the images of the general lines of the pencil STOP 
+START however if there is no additional complex of singular lines the order of the image UNK of a pencil is precisely af STOP 
+START this UNK the preceding observations and so under the assumption of this paper we must UNK the possibility that **zg is a af curve on a UNK surface STOP 
+START continuing with the case in which **zg is a af curve on a UNK q we first observe that the second UNK of q consists precisely of the lines which join the two free intersections of **zg and the planes through any one of the multiple secants STOP 
+START for each of these lines meets q in three points namely two points on **zg and one point on one of the multiple secants STOP 
+START now consider an arbitrary line l meeting q in two points af and af STOP 
+START if UNK is the multiple secant of **zg which passes through af and UNK is the simple secant of **zg which passes through af and if af are the points in which UNK meets **zg and if af is the image of af on the generator UNK it follows that the image of the line af is af STOP 

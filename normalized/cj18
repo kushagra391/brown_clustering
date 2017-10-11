@@ -1,0 +1,112 @@
+START UNK STOP 
+START -hlthe primary decomposition theorem we are trying to study a linear operator t on the UNK space v by UNK t into a direct sum of operators which are in some sense elementary STOP 
+START we can do this through the characteristic values and UNK of t in certain special cases i.e. when the minimal polynomial for t factors over the UNK field f into a product of distinct UNK UNK of degree 1 STOP 
+START what can we do with the general t we try to study t using characteristic values we are confronted with two problems STOP 
+START first t may not have a single characteristic value is really a deficiency in the UNK field namely that it is not UNK closed STOP 
+START second even if the characteristic polynomial factors completely over f into a product of UNK of degree 1 there may not be enough characteristic UNK for t to span the space v STOP 
+START this is clearly a deficiency in t STOP 
+START the second situation is illustrated by the operator t on af f any field represented in the standard basis by af STOP 
+START the characteristic polynomial for a is af and this is plainly also the minimal polynomial for a or for t STOP 
+START thus t is not diagonalizable STOP 
+START one sees that this happens because the null space of af has dimension 1 only STOP 
+START on the other hand the null space of af and the null space of af together span v the former being the UNK UNK by af and the latter the UNK UNK by af and af STOP 
+START this will be more or less our general method for the second problem STOP 
+START if remember this is an assumption the minimal polynomial for t UNK af where af are distinct elements of f then we shall show that the space v is the direct sum of the null spaces of af STOP 
+START the diagonalizable operator is the special case of this in which af for each i STOP 
+START the theorem which we prove is more general than what we have described since it works with the primary decomposition of the minimal polynomial whether or not the UNK which enter are all of first degree STOP 
+START the reader will find it helpful to think of the special case when the UNK are of degree 1 and even more particularly to think of the proof of theorem 10 a special case of this theorem STOP 
+START theorem 12 STOP 
+START UNK primary decomposition theorem STOP 
+START UNK t be a linear operator on the UNK vector space v over the field f STOP 
+START let p be the minimal polynomial for t af where the af are distinct UNK UNK UNK over f and the af are positive UNK STOP 
+START let af be the null space of af STOP 
+START then a af b each af is invariant under t c if af is the operator induced on af by t then the minimal polynomial for af is af STOP 
+START proof STOP 
+START -hlthe idea of the proof is this STOP 
+START if the UNK decomposition a is valid how can we get hold of the UNK af associated with the decomposition UNK af will be the identity on af and zero on the other af STOP 
+START we shall find a polynomial af such that af is the identity on af and is zero on the other af and so that af etc. STOP 
+START for each i let af STOP 
+START since af are distinct prime UNK the UNK af are relatively prime theorem 8 chapter 4 STOP 
+START thus there are UNK af such that af STOP 
+START note also that if af then af is UNK by the polynomial p because af contains each af as a factor STOP 
+START we shall show that the UNK af behave in the manner described in the first paragraph of the proof STOP 
+START let af STOP 
+START since af and p UNK af for af we have af STOP 
+START thus the af are UNK which UNK to some UNK decomposition of the space v STOP 
+START we wish to show that the range of af is exactly the UNK af STOP 
+START it is clear that each vector in the range of af is in af for if UNK is in the range of af then af and so af because af is UNK by the minimal polynomial p STOP 
+START UNK suppose that UNK is in the null space of af STOP 
+START if af then af is UNK by af and so af i.e. af STOP 
+START but then it is immediate that af i.e. that UNK is in the range of af STOP 
+START this UNK the proof of statement a STOP 
+START it is certainly clear that the UNK af are invariant under t STOP 
+START if af is the operator induced on af by t then evidently af because by definition af is 0 on the UNK af STOP 
+START this shows that the minimal polynomial for af UNK af STOP 
+START UNK let g be any polynomial such that af STOP 
+START then af STOP 
+START thus af is UNK by the minimal polynomial p of t i.e. af UNK af STOP 
+START it is easily seen that af UNK g STOP 
+START hence the minimal polynomial for af is af STOP 
+START UNK STOP 
+START -hlif af are the UNK associated with the primary decomposition of t then each af is a polynomial in t and accordingly if a linear operator u UNK with t then u UNK with each of the af i.e. each UNK af is invariant under u STOP 
+START in the UNK of the proof of theorem 12 let us take a look at the special case in which the minimal polynomial for t is a product of UNK UNK i.e. the case in which each af is of the form af STOP 
+START now the range of af is the null space af of af STOP 
+START let us put af STOP 
+START by theorem 10 d is a diagonalizable operator which we shall call the diagonalizable part of t STOP 
+START let us look at the operator af STOP 
+START now af af so af STOP 
+START the reader should be familiar enough with UNK by now so that he sees that af and in general that af STOP 
+START when af for each i we shall have af because the operator af will then be 0 on the range of af STOP 
+START definition STOP 
+START UNK n be a linear operator on the vector space v STOP 
+START we say that n is nilpotent if there is some positive UNK r such that af STOP 
+START theorem 13 STOP 
+START UNK t be a linear operator on the UNK vector space v over the field f STOP 
+START suppose that the minimal polynomial for t UNK over f into a product of linear UNK STOP 
+START then there is a diagonalizable operator d on v and a nilpotent operator n in v such that a af b af STOP 
+START the diagonalizable operator d and the nilpotent operator n are UNK determined by a and b and each of them is a polynomial in t STOP 
+START proof STOP 
+START UNK have just observed that we can write af where d is diagonalizable and n is nilpotent and where d and n not only UNK but are UNK in t STOP 
+START now suppose that we also have af where UNK is diagonalizable UNK is nilpotent and af STOP 
+START we shall prove that af STOP 
+START since UNK and UNK UNK with one another and af we see that UNK and UNK UNK with t STOP 
+START thus UNK and UNK UNK with any polynomial in t they UNK with d and with n STOP 
+START now we have af or af and all four of these operators UNK with one another STOP 
+START since d and UNK are both diagonalizable and they UNK they are simultaneously diagonalizable and af is diagonalizable STOP 
+START since n and UNK are both nilpotent and they UNK the operator af is nilpotent using the fact that n and UNK UNK af and so when r is sufficiently large every term in this expression for af will be 0 STOP 
+START actually a nilpotent operator on an UNK space must have its t power 0 we take af above that will be large enough STOP 
+START it then follows that af is large enough but this is not obvious from the above expression STOP 
+START now af is a diagonalizable operator which is also nilpotent STOP 
+START such an operator is obviously the zero operator since it is nilpotent the minimal polynomial for this operator is of the form af for some af then since the operator is diagonalizable the minimal polynomial cannot have a repeated root af and the minimal polynomial is simply x which says the operator is 0 STOP 
+START thus we see that af and af STOP 
+START UNK STOP 
+START UNK v be a UNK vector space over an UNK closed field f e.g. the field of complex numbers STOP 
+START then every linear operator t in v can be written as the sum of a diagonalizable operator d and a nilpotent operator n which UNK STOP 
+START these operators d and n are unique and each is a polynomial in t STOP 
+START from these results one sees that the study of linear operators on vector spaces over an UNK closed field is essentially reduced to the study of nilpotent operators STOP 
+START for vector spaces over UNK closed fields we still need to find some substitute for characteristic values and UNK STOP 
+START it is a very interesting fact that these two problems can be handled simultaneously and this is what we shall do in the next chapter STOP 
+START in UNK this section we should like to give an example which UNK some of the ideas of the primary decomposition theorem STOP 
+START we have chosen to give it at the end of the section since it deals with differential UNK and thus is not purely linear UNK STOP 
+START example 11 STOP 
+START -hlin the primary decomposition theorem it is not necessary that the vector space v be finite dimensional nor is it necessary for parts a and b that p be the minimal polynomial for t STOP 
+START if t is a linear operator on an arbitrary vector space and if there is a UNK polynomial p such that af then parts a and b of theorem 12 are valid for t with the proof which we gave STOP 
+START let n be a positive UNK and let v be the space of all n times continuously UNK functions f on the real line which satisfy the differential equation af where af are some fixed UNK STOP 
+START if af UNK the space of n times continuously UNK functions then the space v of solutions of this differential equation is a UNK of af STOP 
+START if d UNK the UNK operator and p is the polynomial af then v is the null space of the operator p because af simply says af STOP 
+START let us now regard d as a linear operator on the UNK v STOP 
+START then af STOP 
+START if we are discussing UNK UNK functions then af and v are complex vector spaces and af may be any complex numbers STOP 
+START we now write af where af are distinct complex numbers STOP 
+START if af is the null space of af then theorem 12 says that af STOP 
+START in other words if f UNK the differential equation af then f is UNK UNK in the form af where af UNK the differential equation af STOP 
+START thus the study of the solutions to the equation af is reduced to the study of the space of solutions of a differential equation of the form af STOP 
+START this reduction has been accomplished by the general methods of linear UNK i.e. by the primary decomposition theorem STOP 
+START to describe the space of solutions to af one must know something about differential UNK is one must know something about d other than the fact that it is a linear operator STOP 
+START however one does not need to know very much STOP 
+START it is very easy to establish by UNK on r that if f is in af then af is af etc. STOP 
+START thus af if and only if af STOP 
+START a function g such that af i.e. af must be a polynomial function of degree af or less af STOP 
+START thus f UNK af if and only if f has the form af STOP 
+START accordingly the functions af span the space of solutions of af STOP 
+START since af are UNK independent functions and the UNK function has no UNK these r functions af form a basis for the space of solutions STOP 

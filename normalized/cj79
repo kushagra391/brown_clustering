@@ -1,0 +1,81 @@
+START the set of all decisions is called the operating policy or more simply the policy STOP 
+START an optimal policy is one which in some sense gets the best out of the process as a whole by UNK the value of the product STOP 
+START there are thus three components to an optimal design problem 1 the UNK of the state of the process stream 2 the UNK of the operating variables and the transformation they effect 3 the UNK of the objective function of which the UNK is desired STOP 
+START for a chemical process the first of these might involve the UNK of the different chemical species and the temperature or pressure of the stream STOP 
+START for the second we might have to choose the volume of UNK or amount of cooling to be supplied way in which the transformation of state depends on the operating variables for the main types of UNK is discussed in the next chapter STOP 
+START the objective function is some measure of the increase in value of the stream by processing is the subject of chapter 4 STOP 
+START the essential characteristic of an optimal policy when the state of the stream is transformed in a sequence of stages with no UNK was first isolated by UNK STOP 
+START he recognized that whatever transformation may be effected in the first stage of an UNK process the remaining stages must use an optimal UNK policy with respect to the state resulting from the first stage if there is to be any chance of UNK the complete process STOP 
+START moreover by UNK varying the operating conditions in the first stage and always using the optimal UNK policy for the remaining stages we shall eventually find the optimal policy for all r stages STOP 
+START proceeding in this way from one to two and from two to three stages we may gradually build up the policy for any number STOP 
+START at each step of the calculation the operating variables of only one stage need be varied STOP 
+START to see how important this economy is let us suppose that there are m operating variables at each stage and that the state is specified by n variables the search for the maximum at any one stage will require a number of operations of order af where a is some number not UNK large STOP 
+START to proceed from one stage to the next a sufficient number of feed states must be investigated to allow for UNK number will be of the order of af STOP 
+START if however we are seeking the optimal UNK policy for a given feed state only one search for a maximum is required at the final step STOP 
+START thus a number of operations of the order of af are required STOP 
+START if all the operating variables were varied simultaneously af operations would be required to do the same job and as r increases this increases very much more rapidly than the number of operations required by the dynamic program STOP 
+START but even more important than this is the fact that the direct search by simultaneously varying all operating conditions has produced only one optimal policy namely that for the given feed state and r stages STOP 
+START in contrast the dynamic program produces this policy and a whole family of policies for any smaller number of stages STOP 
+START if the problem is UNK to require a complete coverage of feed states af operations are needed by the dynamic program and af by the direct search STOP 
+START but af is UNK larger than r STOP 
+START no optimism is more UNK than that which believes that the high speed of modern UNK UNK allows for use of the UNK of methods in searching out a result STOP 
+START suppose that af and that the average operation requires only af sec. STOP 
+START then the dynamic program would require about a minute whereas the direct search would take more than three UNK principle of UNK thus brings a vital organization into the search for the optimal policy of a UNK decision process STOP 
+START UNK 1957 has UNK in the following terms an optimal policy has the property that whatever the initial state and initial decision are the remaining decisions must constitute an optimal policy with respect to the state resulting from the first decision STOP 
+START this is the principle which we will UNK in every case to set up a functional equation STOP 
+START it appears in a form that is UNK suited to the powers of the UNK computer STOP 
+START at the same time every device that can be employed to reduce the number of variables is of the greatest value and it is one of the attractive features of dynamic UNK that room is left for UNK in using the special features of the problem to this end STOP 
+START UNK the UNK UNK process consider the process illustrated in fig. UNK consisting of r distinct stages STOP 
+START these will be UNK in the direction opposite to the flow of the process stream so that stage r is the t stage from the end STOP 
+START let the state of the stream leaving stage r be UNK by a vector af and the operating variables of stage r by af STOP 
+START thus af UNK the state of the feed to the UNK process and af the state of the product from the last stage STOP 
+START each stage UNK the state af of its feed to the state af in a way that depends on the operating variables af STOP 
+START we write this af STOP 
+START this transformation is UNK determined by af and we therefore speak of the process as UNK STOP 
+START in practical situations there will be restrictions on the UNK operating conditions and we regard the UNK as belonging to a fixed and UNK set s STOP 
+START the set of UNK af constitutes the operating policy or more briefly the policy and a policy is UNK if all the af belong to s STOP 
+START when the policy has been chosen the state of the product can be obtained from the state of the feed by repeated application of the transformation 1 af STOP 
+START the objective function which is to be UNK is some function usually UNK continuous of the product state STOP 
+START let this be UNK by af STOP 
+START an optimal policy is an UNK policy af which UNK the objective function p STOP 
+START the policy may not be unique but the maximum value of p certainly is and once the policy is specified this maximum can be calculated by 2 and 3 as a function of the feed state af STOP 
+START let af where the UNK is over all UNK policies af STOP 
+START when it is necessary to be specific we say that the optimal policy is an optimal UNK policy with respect to the feed state af STOP 
+START for any choice of UNK policy af in the first stage the state of the stream leaving this stage is given by af STOP 
+START this is the feed state of the subsequent af stages which according to the principle of UNK must use an optimal UNK policy with respect to this state STOP 
+START this will result in a value af of the objective function and when af is chosen correctly this will give af the maximum of the objective function STOP 
+START thus af where the UNK is over all UNK policies af and af is related to af by 5 STOP 
+START the sequence of UNK 6 can be solved for af when af is known and clearly af the UNK being over all UNK af STOP 
+START the set of UNK 5 6 and the starting equation 7 is of a UNK type well suited to UNK on the UNK computer STOP 
+START in finding the optimal UNK policy from that of af stages only the function af is needed STOP 
+START when af has been found it may be transferred into the storage location of af and the whole calculation repeated STOP 
+START we also see how the results may be presented although if n the number of state variables is large any UNK will become UNK STOP 
+START a table or set of tables may be set out as in table UNK STOP 
+START to UNK the optimal UNK policy with respect to the feed state af we enter section r of this table at the state af and find immediately from the last column the maximum value of the objective function STOP 
+START in the third column is given the optimal policy for stage r and in the fourth the resulting state of the stream when this policy is used STOP 
+START since by the principle of UNK the remaining stages use an optimal UNK policy with respect to af we may enter section af of the table at this state af and read off the optimal policy for stage af and the resulting state af STOP 
+START proceeding in this way up the table we UNK the complete optimal policy and if it is desired we can check on af by UNK af at the last stage STOP 
+START it may be that the objective function depends not only on af but also on af as when the cost of the operating policy is considered STOP 
+START a UNK reflection shows that the above UNK and presentation work equally well in this case STOP 
+START a form of objective function that we shall often have occasion to consider is af STOP 
+START here p represents the value of the stream in state p and q the cost of operating the stage with conditions q STOP 
+START hence p is the increase in value of the stream UNK the cost of operation that is the net profit STOP 
+START if af UNK the net profit from stage r and af then the principle of UNK gives af STOP 
+START this sequence of UNK may be started with the remark that with no process af there is no profit i.e. af STOP 
+START UNK the UNK UNK process the process in which the outcome of any one stage is known only UNK is also of interest although for chemical UNK design it is not as important as the UNK process STOP 
+START in this case the stage r operating with conditions af UNK the state of the stream from af to af but only the probability distribution of af is known STOP 
+START this is specified by a distribution function af such that the probability that af lies in some region d of the stage space is af STOP 
+START we cannot now speak of UNK the value of the objective function since this function is now known only in a UNK sense STOP 
+START we can however UNK its expected value STOP 
+START for a single stage we may define af where the UNK is by choice of af STOP 
+START we thus have an optimal policy which UNK the expected value of the objective function for a given af STOP 
+START if we consider a process in which the outcome of one stage is known before passage to the next then the principle of UNK shows that the policy in subsequent stages should be optimal with respect to the outcome of the first STOP 
+START then af the UNK being over all UNK af and the integration over the whole of stage space STOP 
+START the type of presentation of results used in the UNK process may be used here except that now the fourth column is UNK STOP 
+START the third column gives the optimal policy but we must wait to see the outcome of stage r and enter the preceding section of the table at this state STOP 
+START the discussion of the optimal policy when the outcome of one stage is not known before passing to the next is a very much more difficult matter STOP 
+START UNK the continuous UNK process in many cases it is not possible to divide the process into a finite number of UNK stages since the state of the stream is transformed in a continuous manner through the process STOP 
+START we replace r the number of the stage from the end of the process by t a continuous variable which measures the distance of the point considered from the end of the process STOP 
+START the word distance is used here in a rather general sense may in fact be the time that will UNK before the end of the process STOP 
+START if t is the total length of the process its feed state may be UNK by a vector UNK and the product state by UNK STOP 
+START p UNK the state at any point t and q the vector of operating variables there STOP 
